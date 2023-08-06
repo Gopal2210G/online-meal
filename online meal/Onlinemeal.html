@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Food Delivery Service | MyOnlineMeal.com</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 950px)" href="phone.css">
+
+</head>
+
+<body>
+    
+    <nav id="navbar">
+        <div id="logo">
+            <img src="foodlogo.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <!-- for 5 such row we write [li.item<{<a></a>}*5] then enter -->
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Clients Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>       
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>"Experience the convenience of having restaurant-quality meals delivered right to your door."</p>
+        <p>"Say goodbye to boring meal prep and hello to exciting and flavorful dishes with our ever-changing menu."</p>
+        <button class="btn">Order Now!</button>
+    </section>
+    <section class="Service-container">
+        <h1 class="h-primary center">Our Service</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img1.jpg" alt="">
+                <h2 class="h-secondary">Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus in iusto provident
+                    voluptate eum asperiores non ullam! Asperiores, non assumenda nulla qui deserunt libero dolore
+                    ratione fugiat id nobis!</p>
+            </div>
+            <div class="box">
+                <img src="img2.jpg" alt="">
+                <h2 class="h-secondary">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus in iusto provident
+                    voluptate eum asperiores non ullam! Asperiores, non assumenda nulla qui deserunt libero dolore
+                    ratione fugiat id nobis!</p>
+            </div>
+            <div class="box">
+                <img src="img3.jpg" alt="">
+                <h2 class="h-secondary">Home-Delivery</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus in iusto
+                    provident
+                    voluptate eum asperiores non ullam! Asperiores, non assumenda nulla qui deserunt libero dolore
+                    ratione fugiat id nobis!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img9.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="img7.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="intel-logo.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="img8.png" alt="Our clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-center">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-center">
+                    <label for="email">Email:</label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-center">
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-center">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="Message" cols="30" rows="10"></textarea>
+                </div>
+                
+            </form>
+        </div>
+
+    </section>
+    <footer> 
+        <div>
+            <span id="time"></span>
+           </div>
+           <script src="js.js"></script>
+
+        <div class="center">
+            copyright &copy; www.myOnlineMeal.com All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
